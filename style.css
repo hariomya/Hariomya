@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    background: url("bg.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.navbar {
+    display: inline-block;
+}
+nav .right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+.navbar .logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+   
+ 
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+    font-size:15px ;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+    text-align: center;
+
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    color: red;
+    border-radius: 2px;
+    text-decoration: underline;
+}
+.wrapper .center{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: white;
+    font-size: 50px;
+    width: 900px;
+    font-weight: bold;
+    text-align: center;
+}
+.center h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 885px;
+    text-align: center;
+}
+.center p{
+    color: white;
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #f1f0f0;
+    border-radius: 25px;
+    transition: .4s;
+    background: red;
+}
+
+.buttons .bt2{
+    margin-left: 25px;
+   
+}
+.buttons .bt2{
+    margin-left: 25px;
+    background-color: transparent;
+}
+.buttons button:hover , .buttons .bt1  {
+    background: #cc0000;
+}
+.footer {
+    height: 7vh;
+}
